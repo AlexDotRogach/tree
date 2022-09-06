@@ -13,7 +13,7 @@ for (let i = 0; i < size; i++) {
 function createSymbol(quantity) {
   let amount = "";
 
-  for (let i = 0; i < quantity; i++) {
+  for (let i = 0; i < quantity; i += 1) {
     amount += "*";
   }
 
@@ -23,7 +23,7 @@ function createSymbol(quantity) {
 function createSpace(quantity) {
   let amount = "";
 
-  for (let i = 0; i < quantity; i++) {
+  for (let i = 0; i < quantity; i += 1) {
     amount += " ";
   }
 
